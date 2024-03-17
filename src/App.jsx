@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
-import Home from "./ContextAPI/Home";
+import Home from "./LiciousBookStore/Home";
 
 const App = () => {
   return <Home />;
