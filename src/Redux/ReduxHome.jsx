@@ -5,6 +5,7 @@ const ReduxHome = () => {
   useEffect(() => {
     //Appearance.setColorScheme("dark");
   }, []);
+
   return (
     <View>
       <Text>ReduxHome</Text>
