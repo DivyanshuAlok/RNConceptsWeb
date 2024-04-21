@@ -1,9 +1,10 @@
-import React, {useState} from 'react';
+//Higer Order Component
+import React, { useState } from "react";
 
-const withAuth = Component => {
+const withAuth = (Component) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  return props => {
+  return (props) => {
     if (!isAuthenticated) {
       return <div>Please log in</div>;
     }
